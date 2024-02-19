@@ -4413,10 +4413,6 @@
     (stroke (width 0) (type default))
     (uuid 54240983-5f32-4db2-b053-b2921e888a9e)
   )
-  (wire (pts (xy 254 67.31) (xy 274.32 67.31))
-    (stroke (width 0) (type default))
-    (uuid 54b6af3e-6975-438f-a984-5cc0ea8efdfc)
-  )
   (wire (pts (xy 650.24 111.76) (xy 650.24 113.03))
     (stroke (width 0) (type default))
     (uuid 54c9ff6a-a7b0-44ca-b556-688ec66f0c12)
@@ -6736,6 +6732,10 @@
   (wire (pts (xy 351.79 86.36) (xy 355.6 86.36))
     (stroke (width 0) (type default))
     (uuid f6048de8-40d3-4b0e-a205-d17af854cf27)
+  )
+  (wire (pts (xy 254 67.31) (xy 274.32 67.31))
+    (stroke (width 0) (type default))
+    (uuid f645079a-ab41-4994-ac81-995335af3427)
   )
   (wire (pts (xy 654.05 74.93) (xy 652.78 74.93))
     (stroke (width 0) (type default))
@@ -9213,7 +9213,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 245.11 200.66 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 010e4106-4fae-4a14-a039-8146c2c0a941)
     (property "Reference" "COL_JOIN1" (at 246.38 200.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -9619,7 +9619,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x03_Socket") (at 316.23 44.45 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1cd73c1c-c40b-4bd7-9b1a-b5e61ce60fb0)
     (property "Reference" "SPLIT_HAND1" (at 316.865 36.83 0)
       (effects (font (size 1.27 1.27)))
@@ -9700,7 +9700,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x03_Socket") (at 154.94 236.22 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 209150ad-2403-4ff9-a904-d84d17e85f4a)
     (property "Reference" "VCC_BYPASS1" (at 154.94 231.14 90)
       (effects (font (size 1.27 1.27)))
@@ -10644,7 +10644,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 425.45 342.9 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42ff675d-498e-4c00-95b0-77d9db552e4e)
     (property "Reference" "J9" (at 433.07 343.535 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -11120,7 +11120,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 157.48 210.82 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 527b91fa-1599-4a42-bbbb-fe0228ae861d)
     (property "Reference" "COL_JOIN2" (at 158.75 208.915 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -11541,7 +11541,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 375.92 342.9 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62850367-d9e4-4490-abe1-412d2c247c32)
     (property "Reference" "J4" (at 383.54 343.535 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -13024,7 +13024,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 412.75 205.74 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a35e466d-4d11-410b-b102-aa6150d72893)
     (property "Reference" "J7" (at 413.385 198.12 0)
       (effects (font (size 1.27 1.27)))
@@ -13075,9 +13075,9 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 307.34 87.63 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3de9c87-15b3-4a6e-9f14-442c97d01c6d)
-    (property "Reference" "CLK_PULL" (at 307.975 80.01 0)
+    (property "Reference" "CLK_PULL1" (at 307.975 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Socket" (at 307.975 82.55 0)
@@ -13094,7 +13094,7 @@
     (instances
       (project "mk19-pcb"
         (path "/2353ceae-84c1-4f16-856e-bae2658fe2c9"
-          (reference "CLK_PULL") (unit 1)
+          (reference "CLK_PULL1") (unit 1)
         )
       )
     )
@@ -13265,7 +13265,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 452.12 205.74 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8141c0c-c3d1-44df-9840-ceff7d003b24)
     (property "Reference" "J1" (at 452.755 198.12 0)
       (effects (font (size 1.27 1.27)))
@@ -13386,7 +13386,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 332.74 342.9 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa02aa01-48a1-42be-8a71-b4dbeb82cf44)
     (property "Reference" "J10" (at 340.36 343.535 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -13928,7 +13928,7 @@
     (property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/BAE3D624B7782289B923B3970C102B15.pdf" (at 244.094 62.103 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "LCSC" "C2914211" (at 246.38 62.23 0)
+    (property "LCSC" "C5213735" (at 246.38 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "14" (uuid bcdb9438-ceda-475f-b5db-2b7326b31936))
@@ -14034,7 +14034,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 422.91 284.48 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bcfe2b43-a2dc-4a81-a136-2fc4f1bc0165)
     (property "Reference" "J11" (at 423.545 276.86 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -14166,7 +14166,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 491.49 205.74 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0a8879c-f5d0-40c9-9aed-ce8d63c59875)
     (property "Reference" "J2" (at 492.125 198.12 0)
       (effects (font (size 1.27 1.27)))
@@ -15890,7 +15890,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 322.58 95.25 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc656d8d-e934-470b-9d5b-7260c9f67742)
     (property "Reference" "MISO_PULL1" (at 323.215 87.63 0)
       (effects (font (size 1.27 1.27)))
