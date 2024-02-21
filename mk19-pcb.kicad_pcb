@@ -8977,7 +8977,7 @@
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/4b362457-45c8-4f66-a64e-e898859c5a07")
-    (attr through_hole exclude_from_bom)
+    (attr through_hole)
     (fp_text reference "PICO1" (at 0 0) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.16)))
       (tstamp 01b2a5ef-b949-479a-86d9-73e58c9c61f4)
@@ -9362,8 +9362,8 @@
       (net 45 "SWDIO") (pinfunction "SWDIO") (pintype "bidirectional") (tstamp a7909127-a045-40a6-bc06-38e14d09b1f7))
     (pad "43" smd rect (at 2.54 23.9 90) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask")
       (net 45 "SWDIO") (pinfunction "SWDIO") (pintype "bidirectional") (tstamp ff89c487-973d-41c6-a5c4-765a887128ba))
-    (model "C:/Users/ncara/OneDrive/IoT/Tools/KiCad/RP-Pico Libraries/Pico.wrl"
-      (offset (xyz 0 0 0))
+    (model "/Users/christrotter/git/kicad/KiCad-RP-Pico/RP-Pico Libraries/Pico.wrl"
+      (offset (xyz 0 0 4.1))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
